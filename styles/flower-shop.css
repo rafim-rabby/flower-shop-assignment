@@ -17,9 +17,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:auto;
+    padding: 50px 240px 0px;
+    
 }
 
+.banner-text{
+    width: 50%;
+}
 .section-title {
     color: #272727;
     font-size: 80px;
