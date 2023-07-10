@@ -18,12 +18,13 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px 240px 0px;
-    
+
 }
 
-.banner-text{
+.banner-text {
     width: 50%;
 }
+
 .section-title {
     color: #272727;
     font-size: 80px;
@@ -42,7 +43,7 @@ body {
 
 /* styling the button */
 .button {
-    border:none;
+    border: none;
     padding-left: 43px;
     padding-right: 43px;
     padding-top: 20px;
