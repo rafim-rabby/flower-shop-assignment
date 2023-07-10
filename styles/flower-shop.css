@@ -12,28 +12,26 @@ body {
     background-color: #E554731A;
 }
 
-/* styling the text */
 .banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 240px 0px;
-
 }
 
+/* styling the text */
 .banner-text {
     width: 50%;
 }
 
-.section-title {
+.banner-title {
     color: #272727;
     font-size: 80px;
-    font-family: Lato;
     font-weight: 800;
     word-wrap: break-word;
 }
 
-.section-description {
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -60,6 +58,64 @@ body {
     word-wrap: break-word;
 }
 
+/* styling the image */
+.header-image {
+    width: 500px;
+}
+
 /* Styling the Main section */
+.featured {
+    align-items: center;
+    justify-content: space-between;
+    padding: 178px 240px 195px 240px;
+}
+
+/* styling the text */
+.featured-text {
+    text-align: center;
+}
+
+.featured-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+/* styling the images */
+.featured-flowers {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#flower1 {
+    
+    background-color: rgba(167, 33, 98, 0.15);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    padding: 110px 78px 0 76px;
+}
+
+#flower2 {
+    background: rgba(5, 150.70, 160, 0.15);
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    padding:117px 47px 51px;
+}
+
+#flower3{
+    background: rgba(71, 125, 17, 0.15); border-top-left-radius: 300px; border-top-right-radius: 300px;
+    padding: 67px 75px 0;
+}
 
 /* Styling the Footer section */
