@@ -1,0 +1,60 @@
+/* Selecting the font for the page */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Styling the Header section */
+
+/* styling the background */
+.header {
+    width: 100%;
+    height: 100%;
+    background-color: #E554731A;
+}
+
+/* styling the text */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.section-title {
+    color: #272727;
+    font-size: 80px;
+    font-family: Lato;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+/* styling the button */
+.button {
+    border:none;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #E55473;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Styling the Main section */
+
+/* Styling the Footer section */
