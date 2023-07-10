@@ -64,6 +64,8 @@ body {
 }
 
 /* Styling the Main section */
+
+    /* styling the featured section */
 .featured {
     align-items: center;
     justify-content: space-between;
@@ -87,35 +89,40 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
     word-wrap: break-word;
 }
 
 /* styling the images */
 .featured-flowers {
     display: flex;
+    gap:24px;
     align-content: center;
     text-align: center;
     text-decoration: underline;
 }
 
-#flower1 {
-    
-    background-color: rgba(167, 33, 98, 0.15);
+#flower1, #flower2, #flower3{
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
+    margin-bottom: 32px;
+}
+
+#flower1 {
+    background-color: rgba(167, 33, 98, 0.15);
     padding: 110px 78px 0 76px;
 }
 
 #flower2 {
     background: rgba(5, 150.70, 160, 0.15);
-    border-top-left-radius: 300px;
-    border-top-right-radius: 300px;
     padding:117px 47px 51px;
 }
 
 #flower3{
-    background: rgba(71, 125, 17, 0.15); border-top-left-radius: 300px; border-top-right-radius: 300px;
+    background: rgba(71, 125, 17, 0.15); 
     padding: 67px 75px 0;
 }
+
 
 /* Styling the Footer section */
