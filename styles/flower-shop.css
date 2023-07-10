@@ -64,11 +64,11 @@ body {
 }
 
 /* Styling the Main section */
-
+main{
+    justify-content: space-around;
+}
     /* styling the featured section */
 .featured {
-    align-items: center;
-    justify-content: space-between;
     padding: 178px 240px 195px 240px;
 }
 
@@ -97,8 +97,8 @@ body {
 /* styling the images */
 .featured-flowers {
     display: flex;
+    justify-content: space-around;
     gap:24px;
-    align-content: center;
     text-align: center;
     text-decoration: underline;
 }
