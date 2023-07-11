@@ -15,7 +15,7 @@ body {
 .banner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px 240px 0px;
 }
 
@@ -64,12 +64,13 @@ body {
 }
 
 /* Styling the Main section */
-main{
+main {
     justify-content: space-around;
 }
-    /* styling the featured section */
+
+/* styling the featured section */
 .featured {
-    padding: 178px 240px 195px 240px;
+    margin: 178px 240px 195px 240px;
 }
 
 /* styling the text */
@@ -98,12 +99,14 @@ main{
 .featured-flowers {
     display: flex;
     justify-content: space-around;
-    gap:24px;
+    gap: 24px;
     text-align: center;
     text-decoration: underline;
 }
 
-#flower1, #flower2, #flower3{
+#flower1,
+#flower2,
+#flower3 {
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
     margin-bottom: 32px;
@@ -116,13 +119,83 @@ main{
 
 #flower2 {
     background: rgba(5, 150.70, 160, 0.15);
-    padding:117px 47px 51px;
+    padding: 117px 47px 51px;
 }
 
-#flower3{
-    background: rgba(71, 125, 17, 0.15); 
+#flower3 {
+    background: rgba(71, 125, 17, 0.15);
     padding: 67px 75px 0;
 }
 
+/* styling the services section */
+.services {
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    margin: 128px 240px;
+    padding: 128px 240px;
+    text-align: center;
+}
+
+.service-list {
+    margin-right: 100px;
+}
+
+.service-list figcaption {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    word-wrap: break-word;
+}
+
+/* styling the discount section */
+.discount {
+    width: 100%;
+    height: 100%;
+    background-color: #E554731A;
+}
+
+.discount-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.discount-text {
+    text-align: center;
+    padding: 30px 70px;
+    margin-left: 200px;
+}
+
+.discount-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.discount-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.discount-image {
+    padding: 100px 429px 100px 186px;
+    width: 350px;
+}
+
+
+
+
+/* styling the deals section */
+
+/* styling the reviews section */
 
 /* Styling the Footer section */
