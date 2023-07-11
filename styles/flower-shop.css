@@ -207,7 +207,10 @@ main {
 }
 
 /* styling the deals section */
-
+.deals{
+    text-align: center;
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
+}
 /* styling the reviews section */
 
 /* Styling the Footer section */
