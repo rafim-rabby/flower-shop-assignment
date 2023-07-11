@@ -71,8 +71,7 @@ body {
 
 /* styling the image */
 .header-image {
-    padding: 50px 240px 0px 0px;
-    width: 600px;
+    width: 1000px;
 }
 
 /* Styling the Main section */
@@ -164,6 +163,35 @@ main .reviews {
     font-size: 24px;
     font-weight: 600;
     line-height: 35px;
+
+}
+
+/* styling the review section */
+.review{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+/* styling the texts */
+.review-text {
+    text-align: center;
+}
+
+/* styling the reviews */
+
+.review-container {
+    display: flex;
+    justify-content: space-around;
+    gap:24px;
+}
+.review-container img{
+    width: 100px;
+}
+.customer-review {
+    padding: 50px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    max-width: 400px;
 }
 
 /* styling the discount section */
@@ -176,19 +204,20 @@ main .reviews {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: px;
+    gap: 186px;
 }
 
+/* styling the texts */
 .discount-text {
     text-align: center;
     padding: 30px 50px;
     margin-left: 200px;
-    max-width: 500px;
+    max-width: 600px;
 }
 
+/* styling the image */
 .discount-image {
-    /* padding: 100px 429px 100px 186px; */
-    width: 200px;
+    width: 500px;
 }
 
 /* styling the social section */
@@ -222,11 +251,9 @@ main .reviews {
     border-radius: 8px;
     width: 700px;
     height: 64px;
-    /* padding: 264px 453px 121px 287px; */
 }
 
 .deal-input {
-    /* text-align: center; */
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-family: Lato;
@@ -234,11 +261,6 @@ main .reviews {
     padding-left: 22px;
     border: none;
     margin-right: 16px;
-}
-
-/* styling the reviews section */
-.review-container {
-    margin: 0;
 }
 
 /* Styling the Footer section */
