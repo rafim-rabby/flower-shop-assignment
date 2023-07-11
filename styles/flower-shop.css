@@ -20,7 +20,7 @@ body {
 
 /* styling the text */
 .banner-text {
-    max-width: 700px;
+    max-width: 1000px;
 }
 
 .banner-title {
@@ -45,7 +45,7 @@ body {
 
 .section-description {
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 30px;
 }
