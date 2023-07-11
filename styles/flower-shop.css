@@ -79,8 +79,8 @@ body {
 main .featured,
 main .services,
 main .social,
-main .deals, 
-main .reviews{
+main .deals,
+main .reviews {
     max-width: 1440px;
     margin: 128px auto;
 }
@@ -150,7 +150,7 @@ main .reviews{
     justify-content: space-around;
     background: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
-    padding: 130px 0;
+    padding: 200px 0;
     /* margin: 130px 0px; */
 }
 
@@ -237,7 +237,39 @@ main .reviews{
 }
 
 /* styling the reviews section */
-.review-container{
-    margin:0;
+.review-container {
+    margin: 0;
 }
+
 /* Styling the Footer section */
+.footer {
+    /* padding:449px 1922px; */
+    background: #111010;
+    padding: 130px 200px;
+    margin-top: 128px;
+}
+
+.footer-container {
+    text-align: center;
+    justify-content: space-around;
+}
+
+/* styling the texts */
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
