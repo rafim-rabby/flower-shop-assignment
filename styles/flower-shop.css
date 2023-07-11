@@ -243,10 +243,8 @@ main .reviews {
 
 /* Styling the Footer section */
 .footer {
-    /* padding:449px 1922px; */
     background: #111010;
-    padding: 130px 200px;
-    margin-top: 128px;
+    padding: 300px 300px;
 }
 
 .footer-container {
