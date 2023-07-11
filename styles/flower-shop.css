@@ -7,15 +7,13 @@ body {
 
 /* styling the background */
 .header {
-    /* width: 100%;
-    height: 100%; */
-    padding: 30px 30px 0px 150px;
     background-color: #E554731A;
 }
 
 .banner {
     display: flex;
     align-items: center;
+    gap: 97px;
     justify-content: space-between;
     padding: 50px 240px 0px 240px;
 }
@@ -68,19 +66,20 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 700;
-    word-wrap: break-word;
+    margin-bottom: 147px;
 }
 
 /* styling the image */
 .header-image {
+    padding: 50px 240px 0px 0px;
     width: 600px;
 }
 
 /* Styling the Main section */
-main .featured, 
-main .services, 
-main .social, 
-main .deals{
+main .featured,
+main .services,
+main .social,
+main .deals {
     max-width: 1440px;
     margin: 128px auto;
 }
@@ -155,7 +154,7 @@ main .deals{
 }
 
 .service-list {
-    gap:100px;
+    gap: 100px;
     text-align: center;
 }
 
@@ -169,14 +168,14 @@ main .deals{
 /* styling the discount section */
 .discount {
     background-color: #E554731A;
-    padding:130px 0;
+    padding: 130px 0;
 }
 
 .discount-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap:10px;
+    gap: px;
 }
 
 .discount-text {
@@ -185,23 +184,6 @@ main .deals{
     margin-left: 200px;
     max-width: 500px;
 }
-
-/* .discount-title {
-    color: #272727;
-    font-size: 40px;
-    font-weight: 800;
-    word-wrap: break-word;
-} */
-
-/* .discount-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    word-wrap: break-word;
-    margin-top: 24px;
-    margin-bottom: 32px;
-} */
 
 .discount-image {
     /* padding: 100px 429px 100px 186px; */
@@ -225,6 +207,20 @@ main .deals{
 .deals {
     text-align: center;
     background-image: url('../Flower\ Asset/Rectangle 9.png');
+    padding: 140px 0;
+    background-repeat: no-repeat;
+}
+
+/* styling the input */
+.input-container{
+    gap:10px;
+}
+.deal-input {
+    background: white;
+    border-radius: 8px;
+    width: 700px;
+    height: 64px;
+    /* padding: 264px 453px 121px 287px; */
 }
 
 /* styling the reviews section */
