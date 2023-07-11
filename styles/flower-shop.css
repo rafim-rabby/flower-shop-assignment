@@ -7,28 +7,42 @@ body {
 
 /* styling the background */
 .header {
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
+    padding: 30px 30px 0px 150px;
     background-color: #E554731A;
 }
 
 .banner {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 50px 240px 0px;
+    justify-content: space-between;
+    padding: 50px 240px 0px 240px;
 }
 
 /* styling the text */
 .banner-text {
-    width: 50%;
+    max-width: 700px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .section-title {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
 }
 
 .section-description {
@@ -36,8 +50,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    word-wrap: break-word;
-    margin-top: 24px;
 }
 
 /* styling the button */
@@ -61,17 +73,23 @@ body {
 
 /* styling the image */
 .header-image {
-    width: 550px;
+    width: 600px;
 }
 
 /* Styling the Main section */
-main {
-    justify-content: space-around;
+main .featured, 
+main .services, 
+main .social, 
+main .deals{
+    max-width: 1440px;
+    margin: 128px auto;
 }
+
+
 
 /* styling the featured section */
 .featured {
-    margin: 178px 240px 195px;
+    margin: 178px 240px;
 }
 
 /* styling the text */
@@ -83,7 +101,6 @@ main {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
-    word-wrap: break-word;
 }
 
 .featured-description {
@@ -92,8 +109,7 @@ main {
     font-weight: 400;
     line-height: 30px;
     margin-top: 24px;
-    margin-bottom: 48px;
-    word-wrap: break-word;
+    margin-bottom: 100px;
 }
 
 /* styling the images */
@@ -130,17 +146,17 @@ main {
 
 /* styling the services section */
 .services {
-    background: rgba(39, 39, 39, 0.05);
-    border-radius: 8px;
     display: flex;
     justify-content: space-around;
-    margin: 128px 240px;
-    padding: 128px 240px;
-    text-align: center;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    padding: 130px 0;
+    /* margin: 130px 0px; */
 }
 
 .service-list {
-    margin-right: 100px;
+    gap:100px;
+    text-align: center;
 }
 
 .service-list figcaption {
@@ -148,27 +164,26 @@ main {
     font-size: 24px;
     font-weight: 600;
     line-height: 35px;
-    word-wrap: break-word;
 }
 
 /* styling the discount section */
 .discount {
-    width: 100%;
-    height: 100%;
     background-color: #E554731A;
-    margin-bottom: 128px;
+    padding:130px 0;
 }
 
 .discount-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap:10px;
 }
 
 .discount-text {
     text-align: center;
     padding: 30px 50px;
     margin-left: 200px;
+    max-width: 500px;
 }
 
 /* .discount-title {
@@ -189,8 +204,8 @@ main {
 } */
 
 .discount-image {
-    padding: 100px 429px 100px 186px;
-    width: 350px;
+    /* padding: 100px 429px 100px 186px; */
+    width: 200px;
 }
 
 /* styling the social section */
@@ -200,17 +215,18 @@ main {
 }
 
 /* styling the images */
-.social-images{
+.social-images {
     display: flex;
     justify-content: space-between;
     gap: 24px;
 }
 
 /* styling the deals section */
-.deals{
+.deals {
     text-align: center;
     background-image: url('../Flower\ Asset/Rectangle 9.png');
 }
+
 /* styling the reviews section */
 
 /* Styling the Footer section */
