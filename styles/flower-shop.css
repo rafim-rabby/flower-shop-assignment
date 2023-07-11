@@ -79,7 +79,8 @@ body {
 main .featured,
 main .services,
 main .social,
-main .deals {
+main .deals, 
+main .reviews{
     max-width: 1440px;
     margin: 128px auto;
 }
@@ -212,9 +213,10 @@ main .deals {
 }
 
 /* styling the input */
-.input-container{
-    gap:10px;
+.input-container {
+    gap: 10px;
 }
+
 .deal-input {
     background: white;
     border-radius: 8px;
@@ -223,6 +225,19 @@ main .deals {
     /* padding: 264px 453px 121px 287px; */
 }
 
-/* styling the reviews section */
+.deal-input {
+    /* text-align: center; */
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    padding-left: 22px;
+    border: none;
+    margin-right: 16px;
+}
 
+/* styling the reviews section */
+.review-container{
+    margin:0;
+}
 /* Styling the Footer section */
